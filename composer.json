@@ -1,5 +1,5 @@
 {
-    "name": "phoenix/repository",
+    "name": "phpnomad/twig-integration",
     "description": "",
     "type": "library",
     "homepage": "https://github.com/phoenix/core",
@@ -16,12 +16,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Phoenix\\Core\\": "lib/"
+            "PHPNomad\\Twig\\Integration\\": "lib/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Phoenix\\Core\\Tests\\": "tests/"
+            "PHPNomad\\Twig\\Integration\\Tests\\": "tests/"
         }
     },
     "authors": [
