@@ -11,7 +11,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/rooted-phoenix/tests.git"
+            "url": "https://github.com/phpnomad/template.git"
         }
     ],
     "autoload": {
@@ -37,5 +37,9 @@
         "allow-plugins": {
             "phpstan/extension-installer": true
         }
+    },
+    "require": {
+        "twig/twig": "^3.0",
+        "phpnomad/template": "dev-main"
     }
 }
